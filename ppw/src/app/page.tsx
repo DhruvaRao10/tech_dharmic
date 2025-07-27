@@ -7,8 +7,8 @@ const imageStyle = {
 export default function Home() {
   return (
     <div className="h-screen overflow-y-auto">
-      <div className="w-full relative" style={{ height: "30vh" }}>
-        <Image src="/poster.jpeg" alt="poster" fill />
+      <div className="w-400 relative mx-auto " style={{ height: "50vh" }}>
+        <Image src="/poster_feyn.png" alt="poster" fill />
       </div>
 
       <div className="relative -mt-8 ml-90 w-35 h-35">
@@ -26,7 +26,7 @@ export default function Home() {
       <div className="mt-4 ml-90">
         <h1 className="text-4xl font-bold">सुदिनमस्तु !</h1>
         <p style={{ lineHeight: "2.5" }} className="text-2xl font-light">
-          Hi i'm Dhruva, in my final year of my CS course at NIT Allahabad
+          Hi i'm Dhruva, graduating this year from the btech program at NIT Allahbaad
           welcome to my corner of this universe.
         </p>
       </div>
@@ -42,15 +42,13 @@ export default function Home() {
               <span className="mr-2">•</span>
               <span>
                 I interned at a US startup as a product development and data
-                science intern my work there mostly was RAG pipelines and
-                front-end from scratch for their healthcare related products.
+                science intern i worked on RAG pipelines and front-end for their healthcare related products and services.
               </span>
             </li>
             <li className="flex">
               <span className="mr-2">•</span>
               <span>
-                I worked at an org based in India as a Machine learning intern.
-                I worked on a project for an American sales company to build an
+                I worked at an org based in India as a Machine learning intern, worked on a project for an American sales company to build an
                 AI agents pipeline to process and give actionable insights on
                 their sales calls.
               </span>
@@ -78,7 +76,7 @@ export default function Home() {
             </li>
             <li>
               My first love was Physics yet to finish all the numericals in the
-              Resnick Halliday and Irodov book though ):
+              Resnick Halliday and Irodov book though. 
             </li>
           </p>
         </h2>
@@ -89,9 +87,13 @@ export default function Home() {
           <u>What i'm up to</u>
           <p className="text-xl mb-4 font-lato" style={{ lineHeight: "2.0" }}>
             <li>
+                Building language Models for low resource languages like Tulu and Sanskrit. 
+            </li>
+
+            <li>
               Iterating and doing experiments by implementing research papers
               that i am interested in i've been reading research papers on
-              Diffusion Models recently .
+              Diffusion Models and Reinforcement Learning recently .
             </li>
             <li>
               Working on multiple side projects that one is on a version of a
@@ -99,9 +101,8 @@ export default function Home() {
               integrating lm's in pdfs .
             </li>
             <li>
-              Have recently started participating in kaggle competitions and
-              revisiting competitive programming which i had stopped doing about
-              6 months ago .
+              Participating in kaggle competitions and
+              revisiting competitive programming mainly so i am actively solving problems using math. 
             </li>
           </p>
         </h2>
@@ -138,7 +139,13 @@ export default function Home() {
           >
             <div className="w-8 h-8 mr-2 flex items-center justify-center">
               <span className="text-2xl">
-                <Image src="/github.png" alt="github" width={24} height={24} />
+                <Image 
+                  src="/github.png" 
+                  alt="github" 
+                  width={24} 
+                  height={24}
+                  className="filter drop-shadow-[0_0_2px_white]"
+                />
               </span>
             </div>
             GitHub
